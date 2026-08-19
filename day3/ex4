@@ -1,0 +1,19 @@
+package day3;
+
+public class exc4 {
+
+	public static void main(String[] args) {
+		try {
+			System.out.println("vishnu");
+			System.out.println(10/0);
+		}catch(NullPointerException ne) {
+			System.out.println("u r getting ne" + ne);
+		}finally {
+			System.out.println("finally block is always executed");
+		}
+		System.out.println("rest of the code");
+		// TODO Auto-generated method stub
+
+	}
+
+}
